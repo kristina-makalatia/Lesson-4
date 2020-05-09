@@ -1,5 +1,4 @@
 body {
-    height: 1000px;
     padding-top:56px;
 }
 .header-wraper {
@@ -55,4 +54,26 @@ body {
 }
 .box-title{
     color:#fff; 
+}
+.container-fluid{
+    overflow: hidden;
+}
+
+.box-wraper {
+    width: 370px;
+}
+
+/* media */
+@media (max-width: 992px) {
+    /* .flex-wraper {
+        flex-direction: column;
+    } */
+    .box-wraper {
+        width: 30%;
+    }
+}
+@media (max-width: 768px) {
+    .box-wraper {
+        width: 100%;
+    }
 }
